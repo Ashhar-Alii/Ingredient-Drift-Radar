@@ -94,10 +94,9 @@ Ensure you have Python 3.10+ installed.
    ```
    Open `.env` and fill out your actual contact details. Open Food Facts requires a non-generic `OFF_USER_AGENT` value containing a valid email address so they can contact consumers of their free API if issues arise.
 
-## Running the tests
 
-Ensure your virtual environment is active, then execute:
+## Running the Tests
+1. Create a virtual environment: `python -m venv .venv`
+2. Activate it and install dependencies: `pip install -r requirements.txt`
+3. Execute the test runner from the root directory: `pytest`
 
-```bash
-pytest
-```
